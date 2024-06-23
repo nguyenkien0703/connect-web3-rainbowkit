@@ -1,29 +1,11 @@
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
 
-import {
-  dawnWallet,
-  desigWallet,
-  foxWallet,
-} from '@rainbow-me/rainbowkit/wallets';
-import { create } from 'domain';
-import { 
-  connectorsForWallets, 
-  getDefaultWallets } from '@rainbow-me/rainbowkit'
 // import { mainnet, optimism } from 'wagmi/chains';
 import { Chain } from '@rainbow-me/rainbowkit';
-import { argentWallet } from '@rainbow-me/rainbowkit/wallets';
-import { tahoWallet } from '@rainbow-me/rainbowkit/wallets';
-import { talismanWallet } from '@rainbow-me/rainbowkit/wallets';
-import { tokenPocketWallet } from '@rainbow-me/rainbowkit/wallets';
 
-import { trustWallet } from '@rainbow-me/rainbowkit/wallets';
 
-import { uniswapWallet } from '@rainbow-me/rainbowkit/wallets';
 
-import { zerionWallet } from '@rainbow-me/rainbowkit/wallets';
 import { arbitrum, base, mainnet, optimism, polygon, sepolia } from 'wagmi/chains';
-import { rainbowWallet, metaMaskWallet, coinbaseWallet, walletConnectWallet } from '@rainbow-me/rainbowkit/wallets';
-import { createConfig } from 'wagmi';
 
 // import {
 //   metaMaskWallet,

@@ -5,6 +5,7 @@ import {
 } from '@rainbow-me/rainbowkit';
 // Correctly import useConnectModal from the package
 import { useConnectModal } from '@rainbow-me/rainbowkit';
+import Header from './header';
 
 function Page() {
   
@@ -24,22 +25,14 @@ function Page() {
         display: 'flex',
         justifyContent: 'flex-end',
         padding: 12,
+        gap: 12,
+
+
       }}
     >
-      <ConnectButton 
-      
-        accountStatus={{
-          smallScreen: 'avatar',
-          largeScreen: 'full',
-        }}
-        // // showBalance={{
-        // //   smallScreen: true,
-        // //   largeScreen: true,
-        // // }}
-        showBalance={true}
       
       
-      />
+      <Header/>
 
 
 
